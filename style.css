@@ -1,0 +1,94 @@
+body{
+    background-color: #04293A;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+}
+.osc_top_text{
+    text-align: center;
+    color: azure;
+}
+.osc_screen{
+    font-size:20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #04293A;
+    border-style: solid;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    border-radius: 5px;
+    resize: none;
+    color:azure;
+    height:60px;
+    background: rgb(0,153,255);
+    background: linear-gradient(90deg, rgba(0,153,255,1) 0%, rgba(9,65,121,1) 100%);
+    width:245px;
+}
+.osc_calc_keys{
+    width:270px; margin:0 auto;
+
+
+border-radius: 5px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,0.30687830687830686) 0%, rgba(9,9,121,0.283068783068783) 100%);
+}
+.osc_btn{
+
+    margin-left: 10px;
+    font-size:20px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    color:azure;
+    width: 50px;
+    height:50px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #04293A;
+    border-style: solid;
+    border-radius: 10px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,78,121,1) 100%);
+}
+.osc_btn2{
+    margin-left: 10px;
+    font-size:20px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    color:azure;
+    width: 50px;
+    height:50px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #04293A;
+    border-style: solid;
+    border-radius: 10px;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,78,121,1) 100%);
+}
+.osc_btnsub{
+    margin-left: 10px;
+    font-size:20px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    color:azure;
+    width: 240px;
+    height:50px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #04293A;
+    border-style: solid;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 99%);
+}
+.osc_btn:hover{
+    border-color: azure;
+}
+.osc_btn2:hover{
+    border-color: azure;
+}
+.osc_btnsub:hover{
+    border-color: azure;
+}

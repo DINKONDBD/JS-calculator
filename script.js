@@ -9,3 +9,6 @@ function calculate (){
     result = eval(document.getElementById("osc_screen").value)
     document.getElementById("osc_screen").value = result
 }
+function cleartxt(){
+    document.getElementById('osc_screen').value = '';
+}

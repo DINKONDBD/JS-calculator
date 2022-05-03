@@ -4,7 +4,7 @@ function addtoinput(value){
 }
 function calculate (){
     window.onerror = function (e) {
-        alert(e);
+        document.getElementById("osc_screen").value = e;
     };
     result = eval(document.getElementById("osc_screen").value)
     document.getElementById("osc_screen").value = result

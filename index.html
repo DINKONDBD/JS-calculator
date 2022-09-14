@@ -11,15 +11,15 @@
 <body>
 <script src="script.js"></script>
 <h1 class="osc_top_text"> Calculator</h1>
-<textarea id="osc_screen" class="osc_screen" placeholder="2+2"></textarea>
+<h1 id="osc_screen" class="osc_screen"></h1>
 <div class="osc_calc_keys">
-    <button class="osc_btn"onclick="removelast()">⌦</button>
+    <button class="osc_btn" onclick="removelast()">⌦</button>
     <button class="osc_btn" onclick="cleartxt()">C</button>
     <button class="osc_btn" onclick="addtoinput('-')">-</button>
     <button class="osc_btn" onclick="addtoinput('*')">*</button>
     <div>
         <button class="osc_btn" onclick="addtoinput(1)">1</button>
-        <button class="osc_btn" onclick="addtoinput(2)")>2</button>
+        <button class="osc_btn" onclick="addtoinput(2)">2</button>
         <button class="osc_btn" onclick="addtoinput(3)">3</button>
         <button class="osc_btn" onclick="addtoinput('/')">/</button>
 
@@ -36,6 +36,10 @@
         <button class="osc_btn" onclick="addtoinput(8)">8</button>
         <button class="osc_btn" onclick="addtoinput(9)">9</button>
         <button class="osc_btn2" onclick="calculate()">=</button>
+
+    </div>
+    <div >
+        <button class="osc_btn3" onclick="addtoinput('0')">0</button>
 
     </div>
 
